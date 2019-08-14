@@ -1,9 +1,8 @@
 def reverse_each_word(string)
-  str_arr = []
-  
-  string << str_arr
-   puts str_arr
- end
+  string.collect do |sentence|
+    puts sentence
+end
+end
   
   
   
